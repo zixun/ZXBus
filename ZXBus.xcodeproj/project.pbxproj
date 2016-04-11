@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CED9FA3C1CBB9BE200454DF2 /* ZXBus.h in Headers */ = {isa = PBXBuildFile; fileRef = CED9FA3B1CBB9BE200454DF2 /* ZXBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CED9FA441CBB9C1700454DF2 /* ZXPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA431CBB9C1700454DF2 /* ZXPaths.swift */; };
 		CED9FA4C1CBB9C3000454DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA4B1CBB9C3000454DF2 /* AppDelegate.swift */; };
 		CED9FA4E1CBB9C3000454DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA4D1CBB9C3000454DF2 /* ViewController.swift */; };
 		CED9FA511CBB9C3000454DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED9FA4F1CBB9C3000454DF2 /* Main.storyboard */; };
 		CED9FA531CBB9C3000454DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED9FA521CBB9C3000454DF2 /* Assets.xcassets */; };
 		CED9FA561CBB9C3000454DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED9FA541CBB9C3000454DF2 /* LaunchScreen.storyboard */; };
-		CED9FA5C1CBB9C7B00454DF2 /* NSString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA5B1CBB9C7B00454DF2 /* NSString+.swift */; };
+		CED9FA691CBBA7EA00454DF2 /* ZXOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA681CBBA7EA00454DF2 /* ZXOptionView.swift */; };
+		CED9FA6E1CBBA81F00454DF2 /* NSString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA6B1CBBA81F00454DF2 /* NSString+.swift */; };
+		CED9FA6F1CBBA81F00454DF2 /* ZXColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA6C1CBBA81F00454DF2 /* ZXColor.swift */; };
+		CED9FA701CBBA81F00454DF2 /* ZXPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA6D1CBBA81F00454DF2 /* ZXPaths.swift */; };
+		CED9FA7A1CBBB17B00454DF2 /* ZXPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA791CBBB17B00454DF2 /* ZXPagingView.swift */; };
+		CED9FA801CBBB1F300454DF2 /* ZXGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA7D1CBBB1F300454DF2 /* ZXGuideViewController.swift */; };
+		CED9FA811CBBB1F300454DF2 /* ZXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA7F1CBBB1F300454DF2 /* ZXNavigationController.swift */; };
+		CED9FA841CBBB2F200454DF2 /* ZXCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA821CBBB2F200454DF2 /* ZXCircleView.swift */; };
+		CED9FA851CBBB2F200454DF2 /* ZXCuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA831CBBB2F200454DF2 /* ZXCuteView.swift */; };
+		CED9FA881CBBB39B00454DF2 /* ZXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA871CBBB39B00454DF2 /* ZXPageControl.swift */; };
+		CED9FA8A1CBBB3BC00454DF2 /* ZXHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA891CBBB3BC00454DF2 /* ZXHelper.swift */; };
+		CED9FA911CBBB40500454DF2 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA8B1CBBB40500454DF2 /* Array+.swift */; };
+		CED9FA921CBBB40500454DF2 /* NSURL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA8C1CBBB40500454DF2 /* NSURL+.swift */; };
+		CED9FA931CBBB40500454DF2 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA8D1CBBB40500454DF2 /* UIImage+.swift */; };
+		CED9FA941CBBB40500454DF2 /* UINavigationItem+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA8E1CBBB40500454DF2 /* UINavigationItem+.swift */; };
+		CED9FA951CBBB40500454DF2 /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA8F1CBBB40500454DF2 /* UIScrollView+.swift */; };
+		CED9FA961CBBB40500454DF2 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9FA901CBBB40500454DF2 /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CED9FA381CBB9BE200454DF2 /* ZXBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED9FA3B1CBB9BE200454DF2 /* ZXBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXBus.h; sourceTree = "<group>"; };
 		CED9FA3D1CBB9BE200454DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CED9FA431CBB9C1700454DF2 /* ZXPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPaths.swift; sourceTree = "<group>"; };
 		CED9FA491CBB9C3000454DF2 /* ZXBusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXBusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED9FA4B1CBB9C3000454DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED9FA4D1CBB9C3000454DF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +43,23 @@
 		CED9FA521CBB9C3000454DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED9FA551CBB9C3000454DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED9FA571CBB9C3000454DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CED9FA5B1CBB9C7B00454DF2 /* NSString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+.swift"; sourceTree = "<group>"; };
+		CED9FA681CBBA7EA00454DF2 /* ZXOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXOptionView.swift; sourceTree = "<group>"; };
+		CED9FA6B1CBBA81F00454DF2 /* NSString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+.swift"; sourceTree = "<group>"; };
+		CED9FA6C1CBBA81F00454DF2 /* ZXColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXColor.swift; sourceTree = "<group>"; };
+		CED9FA6D1CBBA81F00454DF2 /* ZXPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPaths.swift; sourceTree = "<group>"; };
+		CED9FA791CBBB17B00454DF2 /* ZXPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPagingView.swift; sourceTree = "<group>"; };
+		CED9FA7D1CBBB1F300454DF2 /* ZXGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXGuideViewController.swift; sourceTree = "<group>"; };
+		CED9FA7F1CBBB1F300454DF2 /* ZXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXNavigationController.swift; sourceTree = "<group>"; };
+		CED9FA821CBBB2F200454DF2 /* ZXCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXCircleView.swift; sourceTree = "<group>"; };
+		CED9FA831CBBB2F200454DF2 /* ZXCuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXCuteView.swift; sourceTree = "<group>"; };
+		CED9FA871CBBB39B00454DF2 /* ZXPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPageControl.swift; sourceTree = "<group>"; };
+		CED9FA891CBBB3BC00454DF2 /* ZXHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXHelper.swift; sourceTree = "<group>"; };
+		CED9FA8B1CBBB40500454DF2 /* Array+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+		CED9FA8C1CBBB40500454DF2 /* NSURL+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+.swift"; sourceTree = "<group>"; };
+		CED9FA8D1CBBB40500454DF2 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		CED9FA8E1CBBB40500454DF2 /* UINavigationItem+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+.swift"; sourceTree = "<group>"; };
+		CED9FA8F1CBBB40500454DF2 /* UIScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		CED9FA901CBBB40500454DF2 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +101,10 @@
 		CED9FA3A1CBB9BE200454DF2 /* ZXBus */ = {
 			isa = PBXGroup;
 			children = (
+				CED9FA7B1CBBB1F300454DF2 /* controller */,
+				CED9FA6A1CBBA81F00454DF2 /* Core */,
+				CED9FA671CBBA7EA00454DF2 /* View */,
 				CED9FA3B1CBB9BE200454DF2 /* ZXBus.h */,
-				CED9FA431CBB9C1700454DF2 /* ZXPaths.swift */,
-				CED9FA5B1CBB9C7B00454DF2 /* NSString+.swift */,
 				CED9FA3D1CBB9BE200454DF2 /* Info.plist */,
 			);
 			path = ZXBus;
@@ -90,6 +121,60 @@
 				CED9FA571CBB9C3000454DF2 /* Info.plist */,
 			);
 			path = ZXBusExample;
+			sourceTree = "<group>";
+		};
+		CED9FA671CBBA7EA00454DF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED9FA871CBBB39B00454DF2 /* ZXPageControl.swift */,
+				CED9FA681CBBA7EA00454DF2 /* ZXOptionView.swift */,
+				CED9FA821CBBB2F200454DF2 /* ZXCircleView.swift */,
+				CED9FA831CBBB2F200454DF2 /* ZXCuteView.swift */,
+				CED9FA791CBBB17B00454DF2 /* ZXPagingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CED9FA6A1CBBA81F00454DF2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CED9FA6B1CBBA81F00454DF2 /* NSString+.swift */,
+				CED9FA8B1CBBB40500454DF2 /* Array+.swift */,
+				CED9FA8C1CBBB40500454DF2 /* NSURL+.swift */,
+				CED9FA8D1CBBB40500454DF2 /* UIImage+.swift */,
+				CED9FA8E1CBBB40500454DF2 /* UINavigationItem+.swift */,
+				CED9FA8F1CBBB40500454DF2 /* UIScrollView+.swift */,
+				CED9FA901CBBB40500454DF2 /* UIView+.swift */,
+				CED9FA6C1CBBA81F00454DF2 /* ZXColor.swift */,
+				CED9FA6D1CBBA81F00454DF2 /* ZXPaths.swift */,
+				CED9FA891CBBB3BC00454DF2 /* ZXHelper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CED9FA7B1CBBB1F300454DF2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CED9FA7C1CBBB1F300454DF2 /* ZXGuideViewController */,
+				CED9FA7E1CBBB1F300454DF2 /* ZXNavigationController */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CED9FA7C1CBBB1F300454DF2 /* ZXGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CED9FA7D1CBBB1F300454DF2 /* ZXGuideViewController.swift */,
+			);
+			path = ZXGuideViewController;
+			sourceTree = "<group>";
+		};
+		CED9FA7E1CBBB1F300454DF2 /* ZXNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CED9FA7F1CBBB1F300454DF2 /* ZXNavigationController.swift */,
+			);
+			path = ZXNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +288,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9FA441CBB9C1700454DF2 /* ZXPaths.swift in Sources */,
-				CED9FA5C1CBB9C7B00454DF2 /* NSString+.swift in Sources */,
+				CED9FA6F1CBBA81F00454DF2 /* ZXColor.swift in Sources */,
+				CED9FA951CBBB40500454DF2 /* UIScrollView+.swift in Sources */,
+				CED9FA931CBBB40500454DF2 /* UIImage+.swift in Sources */,
+				CED9FA911CBBB40500454DF2 /* Array+.swift in Sources */,
+				CED9FA691CBBA7EA00454DF2 /* ZXOptionView.swift in Sources */,
+				CED9FA851CBBB2F200454DF2 /* ZXCuteView.swift in Sources */,
+				CED9FA8A1CBBB3BC00454DF2 /* ZXHelper.swift in Sources */,
+				CED9FA811CBBB1F300454DF2 /* ZXNavigationController.swift in Sources */,
+				CED9FA881CBBB39B00454DF2 /* ZXPageControl.swift in Sources */,
+				CED9FA961CBBB40500454DF2 /* UIView+.swift in Sources */,
+				CED9FA701CBBA81F00454DF2 /* ZXPaths.swift in Sources */,
+				CED9FA841CBBB2F200454DF2 /* ZXCircleView.swift in Sources */,
+				CED9FA921CBBB40500454DF2 /* NSURL+.swift in Sources */,
+				CED9FA801CBBB1F300454DF2 /* ZXGuideViewController.swift in Sources */,
+				CED9FA941CBBB40500454DF2 /* UINavigationItem+.swift in Sources */,
+				CED9FA7A1CBBB17B00454DF2 /* ZXPagingView.swift in Sources */,
+				CED9FA6E1CBBA81F00454DF2 /* NSString+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
